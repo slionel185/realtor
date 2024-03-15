@@ -4,6 +4,8 @@ import type { Metadata, Viewport } from 'next'
 
 import { GeistSans } from 'geist/font/sans'
 
+import Providers from '@/components/providers'
+
 export const metadata: Metadata = {}
 export const viewport: Viewport = {}
 
@@ -17,7 +19,9 @@ export default function RootLayout({
             <head />
             
             <body className={GeistSans.className}>
-                {children}
+                <Providers>
+                    {children}
+                </Providers>
             </body>
         </html>
     )

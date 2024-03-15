@@ -45,4 +45,6 @@ export const sendTwoFactorTokenEmail = async (email: string, token: string) => {
             </p>
         `
     })
+
+    console.log('Hello')
 }

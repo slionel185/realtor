@@ -97,7 +97,7 @@ export default function RegisterForm() {
                     <FormSuccess message={success} />
 
                     <Button
-                        disabled={true}
+                        disabled={isPending}
                         type='submit'
                         className='w-full'
                     >
