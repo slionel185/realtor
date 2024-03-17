@@ -4,6 +4,7 @@ import type { Metadata, Viewport } from 'next'
 
 import { GeistSans } from 'geist/font/sans'
 
+import { Navbar } from '@/components/navbar'
 import Providers from '@/components/providers'
 
 export const metadata: Metadata = {}

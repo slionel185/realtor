@@ -1,21 +1,11 @@
-'use client'
+import { Navbar } from '@/components/navbar'
+import { Hero } from '@/components/home/hero'
 
-import { Button } from '@/components/ui/button'
-import { useCurrentUser } from '@/hooks/use-current-user'
-import { LoginButton } from '@/components/auth/login-button'
-
-export default function HomePage() {
-    const user = useCurrentUser()
-    
+export default function HomePage() {    
     return (
-        <div>
-            <h1>Hello, {user?.name}</h1>
-
-            <Button>
-                <LoginButton>
-                    Login
-                </LoginButton>
-            </Button>
+        <div className='flex flex-col'>
+            <Navbar />
+            <Hero />
         </div>
     )
 }
