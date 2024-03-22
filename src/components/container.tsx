@@ -1,8 +1,8 @@
 import { cn } from '@/lib/utils'
 
-export const Container = ({ children, className }: { children: React.ReactNode, className?: string }) => {
+export const Container = ({ children, className, id }: { children: React.ReactNode, className?: string, id?: string }) => {
     return (
-        <div className={cn('max-w-7xl w-full mx-auto', className)}>
+        <div id={id} className={cn('max-w-7xl w-full mx-auto', className)}>
             {children}
         </div>
     )
