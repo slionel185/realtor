@@ -18,7 +18,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="mt-8">
-                        <h2 className="text-5xl font-semibold">Realtor</h2>
+                        <h2 className="text-5xl font-semibold">REALTOR</h2>
                     </div>
                 </div>
                 <div className="text-center md:text-left mb-4 md:mb-0">
