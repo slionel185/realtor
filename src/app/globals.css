@@ -69,6 +69,10 @@ body, html, :root {
     --ring: 240 4.9% 83.9%;
   }
 }
+.image-container {
+  max-width: 100%;
+  height: auto; 
+}
  
 @layer base {
   * {
